@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- TÍTULO DA PÁGINA -->
+    <title>Site de vendas Fernanda ZD Modas - Perfil</title>
+
+    <!-- IMPORTAÇÃO DE FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+
+    <!-- IMPORTAÇÃO DE CSS E SCRIPTS -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+        <!-- INÍCIO CABEÇALHO -->
+        <header id="cabecalho">
+
+            <!-- INÍCIO ÁREA DA ESQUERDA -->
+            <!-- INÍCIO MENU -->
+            <div class="junto">
+
+                <!-- LOGO -->
+            <a href="index.php"><img  class="logo" src="img/logo_logo.png" alt="Imagem de logo" title="Imagem de logo"></a>
+            <!-- FIM LOGO -->
+            <nav id="nav">
+                <button id="btnCelular" aria-label="Abrir menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false"><img src="img/menu.png" alt="Imagem menu hambúrguer" title="Menu de links das páginas"><span>Menu</span></button>
+
+                    <ul id="menu" role="menu">
+                        <li id="hover"><a href="index.php" title="Link para a página de início">Home</a></li>
+                        <li id="hover"><a href="lingeries.html" title="Link para a página de produtos de lingerie">Lingeries</a></li>
+                        <li id="hover"><a href="sexShop.html" title="Link para a página de produtos de sex shop">Sex shop</a></li>
+                        <li id="hover"><a href="cosmeticos.html" title="Link para a página de produtos de cosméticos">Cosméticos</a></li>
+                        <li id="hover"><a href="sobre.html" title="Link para a página com informações sobre a empresa">Sobre nós</a></li>
+                        <li id="hover"><a href="insereProduto.html" title="Link para a página de cadastro de produtos">Cadastro de produtos</a></li>
+                        <!-- <li class="menu_hamburguer">      
+                        <li id="hover"><a href=""><img src="img/sair.png" alt="Imagem de símbolo para sair da página" title="Símbolo para sair da página"><span>Sair</span></a></li>
+                        </li>  -->
+                    </ul>
+            </nav>
+            <!-- FIM MENU -->
+
+        </div>
+        <!-- FIM ÁREA DA ESQUERDA -->
+
+        <!-- INÍCIO LINKS ALINHADOS À DIREITA E ACESSIBILIDADE-->
+        <div class="direita">
+            <div class="alinha">
+                <a href="cadastro.html" title="Link para a página de cadastro" class="margem">Login</a>
+                <!-- <ul id="menu2">
+
+                    <button id="perfil"><div id="imgPerfil" title="Boneco de perfil" width="20px"></div><span>Perfil</span></button>
+
+                    <ul id="menuPerfil"> -->
+                    <a href="perfil.html" title="Link para acesso à página de perfil"><div id="imgPerfil" title="Boneco de perfil" width="20px"></div><span>Perfil</span></a>
+                    <a href="sair.php"><img src="img/sair.png" alt="Imagem de símbolo para sair da página" title="Símbolo para sair da página"><span>Sair</span></a>
+                    <!-- </ul>
+                </ul> -->
+                <button id="botaoContraste">&nbsp; / &nbsp;Alto Contraste<div id="imgContraste" title="Símbolo de contraste" width="20px"></div></button>
+                <button id="aumentoFonte">&nbsp;Aumento de fonte</button>
+            </div>
+        </div>
+        <!-- FIM LINKS ALINHADOS À DIREITA E ACESSIBILIDADE-->
+
+        </header>
+        <!-- FIM CABEÇALHO -->
+
+
+        <!-- INÍCIO ÁREA PERFIL -->
+        <div id="area2">
+            <div id="comentPerfil">
+                <div class="perfil">
+                    <h1>Perfil</h1>
+                    <img src="img/perfil.png" alt="Imagem de perfil" width="80px" title="Imagem de perfil">
+                </div>
+                    <h2>Informações pessoais:</h2>
+                <div id="infoPerfil">
+                    <p><span>Nome:</span> Nome do cliente</p>
+                    <p><span>E-mail:</span> E-mail do cliente</p>
+                    <p><span>Telefone celular:</span> Número de telefone do cliente</p>
+                    <p><span>Logradouro</span> Número de logradouro do cliente</p>
+
+                    <button><a href="#">Alterar meus dados</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div id="area2">
+            <div id="comentPerfil">
+                <div id="infoPerfil">
+                    <p>Ao excluir sua conta, estará excluindo-a permanentemente, perdendo seus dados, histórico e promoções.<br>
+                    Caso deseje excluir sua conta permanentemente, clique no botão abaixo.</p>
+
+                    <button><a href="#">Excluir sua conta</a></button>
+                </div>
+            </div>
+        </div>
+        <!-- FIM ÁREA PERFIL -->
+
+    </div>
+
+        <!-- RODAPÉ -->
+        <div id="footer">
+            <p>
+                <a href="index.php">Home</a>
+                <a href="lingeries.html">Lingeries</a>
+                <a href="sexShop.html">Sex shop</a>
+                <a href="cosmeticos.html">Cosméticos</a>
+                <a href="sobre.html">Sobre nós</a>
+            </p>
+            <p class="reservado">&copy;Todos os direitos reservados</p>
+        </div>
+        <!-- FIM RODAPÉ -->
+
+        <!-- IMPORTAÇÃO DE SCRIPTS -->
+        <script src="js/script.js"></script>
+</body>
+</html>

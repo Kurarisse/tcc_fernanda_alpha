@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pyneapple">
+    <meta name="keywords" content="Vendas, Compras, Lingerie, Cosméticos, Sex shop">
+    <meta name="description" content="Site de vendas - TCC 3°INFO A">
+    <title>Site de vendas Fernanda ZD Modas - Sex shop</title>
+
+    <!-- IMPORTAÇÃO DE FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+
+    <!-- IMPORTAÇÃO DE CSS -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body class="coluna">
+      <div class="models">
+          <div class="models-item">
+              <a href="">
+                  <div class="models-item--img"><img src="" /></div>
+                  <div class="models-item--add">+</div>
+              </a>
+              <div class="models-item--price">R$ --</div>
+              <div class="models-item--name">--</div>
+              <div class="models-item--desc">--</div>
+          </div>
+          <div class="cart--item">
+              <img src="" />
+              <div class="cart--item-nome">--</div>
+              <div class="cart--item--qtarea">
+                  <button class="cart--item-qtmenos">-</button>
+                  <div class="cart--item--qt">1</div>
+                  <button class="cart--item-qtmais">+</button>
+              </div>
+          </div>
+      </div>
+
+        <!-- INÍCIO CABEÇALHO -->
+        <header id="cabecalho">
+        <div class="junto">
+
+            <!-- LOGO -->
+        <a href="index.php"><img  class="logo" src="img/logo_logo.png" alt="Imagem de logo" title="Imagem de logo"></a>
+        <!-- FIM LOGO -->
+        <nav id="nav">
+            <button id="btnCelular" aria-label="Abrir menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false"><img src="img/menu.png" alt="Imagem menu hambúrguer" title="Menu de links das páginas"><span>Menu</span></button>
+
+                <ul id="menu" role="menu">
+                    <li id="hover"><a href="index.php" title="Link para a página de início">Home</a></li>
+                    <li id="hover"><a href="lingeries.html" title="Link para a página de produtos de lingerie">Lingeries</a></li>
+                    <li id="hover"><a href="sexShop.html" title="Link para a página de produtos de sex shop">Sex shop</a></li>
+                    <li id="hover"><a href="cosmeticos.html" title="Link para a página de produtos de cosméticos">Cosméticos</a></li>
+                    <li id="hover"><a href="sobre.html" title="Link para a página com informações sobre a empresa">Sobre nós</a></li>
+                    <li id="hover"><a href="insereProduto.html" title="Link para a página de cadastro de produtos">Cadastro de produtos</a></li>
+                    <!-- <li class="menu_hamburguer">                      
+                     
+                    <li id="hover"><a href=""><img src="img/sair.png" alt="Imagem de símbolo para sair da página" title="Símbolo para sair da página"><span>Sair</span></a></li>
+                    </li>  -->
+                </ul>
+        </nav>
+        <!-- FIM MENU --> 
+
+        <!-- BARRA DE PESQUISA -->
+        <form action="" id="barraPesquisa">
+            <a class="lupa">
+                <img src="img/lupa.png" alt="Imagem de lupa de pesquisa" width="25px" height="25px">
+            </a>
+            <input type="text" name="busca" id="busca" placeholder="Pesquisar...">
+        </form>
+        <!-- FIM BARRA DE PESQUISA -->
+
+    </div>
+
+     <!-- FIM ÁREA DA ESQUERDA -->
+
+        <!-- INÍCIO LINKS ALINHADOS À DIREITA E ACESSIBILIDADE-->
+        <div class="direita">
+            <div class="alinha">
+                <a href="cadastro.html" title="Link para a página de cadastro" class="margem">Login</a>
+                <!-- <ul id="menu2">
+
+                    <button id="perfil"><div id="imgPerfil" title="Boneco de perfil" width="20px"></div><span>Perfil</span></button>
+
+                    <ul id="menuPerfil"> -->
+                    <a href="perfil.html" title="Link para acesso à página de perfil"><div id="imgPerfil" title="Boneco de perfil" width="20px"></div><span>Perfil</span></a>
+                    <a href="sair.php"><img src="img/sair.png" alt="Imagem de símbolo para sair da página" title="Símbolo para sair da página"><span>Sair</span></a>
+                    <!-- </ul>
+                </ul> -->
+                <button id="botaoContraste">&nbsp; / &nbsp;Alto Contraste<div id="imgContraste" title="Símbolo de contraste" width="20px"></div></button>
+                <button id="aumentoFonte">&nbsp;Aumento de fonte</button>
+            </div>
+        </div>
+        <!-- FIM LINKS ALINHADOS À DIREITA E ACESSIBILIDADE-->
+
+        <!-- INÍCIO DO BOTÃO PARA ABRIR O CARRINHO NO CELULAR -->
+        <header>
+          <div class="menu-openner header">
+              <span>0</span>
+              <span class="material-icons"><img src="img/carPreta.png" alt="Imagem de um carrinho" title="Imagem de um carrinho" width="35px"></span>
+          </div>
+      </header>
+      <!-- FIM DO BOTÃO PARA ABRIR O CARRINHO NO CELULAR -->
+
+    </header>
+    <!-- <div id="banner"> -->
+    <!-- FIM CABEÇALHO --> 
+      <div class="linha">
+      <main>
+        <h1>Sex Shop</h1>
+          <div class="models-area"></div>
+      </main>
+      
+      <aside class="aside">
+          <div class="cart--area">
+              <div class="menu-closer">
+                  <span class="material-icons"><img src="img/fechar.png" alt="Imagem de X" title="Imagem de X"></span>
+              </div>
+              
+              <div class="cart"></div>
+              <div class="cart--details">
+                  <div class="cart--totalitem subtotal">
+                      <span>Subtotal</span>
+                      <span>R$ --</span>
+                  </div>
+                  <div class="cart--totalitem desconto">
+                      <span>Desconto (-10%)</span>
+                      <span>R$ --</span>
+                  </div>
+                  <div class="cart--totalitem total big">
+                      <span>Total</span>
+                      <span>R$ --</span>
+                  </div>
+                  <div class="cart--finalizar">Fazer pedido</div>
+              </div>
+          </div>
+      </aside>
+    </div>
+
+      <div class="modelsWindowArea">
+          <div class="modelsWindowBody">
+              <div class="modelsInfo--cancelMobileButton">Voltar</div>
+              <div class="modelsBig">
+                  <img src="" />
+              </div>
+              <div class="modelsInfo">
+                  <h1>--</h1>
+                  <div class="modelsInfo--desc">--</div>
+                  <div class="modelsInfo--sizearea">
+                      <div class="modelsInfo--sector">Escala</div>
+                      <div class="modelsInfo--sizes">
+                          <div data-key="0" class="modelsInfo--size">Pequeno <span>--</span></div>
+                          <div data-key="1" class="modelsInfo--size">Médio <span>--</span></div>
+                          <div data-key="2" class="modelsInfo--size selected">Grande <span>--</span></div>
+                      </div>
+                  </div>
+                  <div class="modelsInfo--pricearea">
+                      <div class="modelsInfo--sector">Preço</div>
+                      <div class="modelsInfo--price">
+                          <div class="modelsInfo--actualPrice">R$ --</div>
+                          <div class="modelsInfo--qtarea">
+                              <button class="modelsInfo--qtmenos">-</button>
+                              <div class="modelsInfo--qt">1</div>
+                              <button class="modelsInfo--qtmais">+</button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="modelsInfo--addButton">Adicionar ao carrinho</div>
+                  <div class="modelsInfo--cancelButton">Cancelar</div>
+              </div>
+          </div>
+      </div>
+
+    <!-- </div> -->
+      <!-- RODAPÉ -->
+      <div id="footer">
+        <p>
+            <a href="index.php">Home</a>
+            <a href="lingeries.html">Lingeries</a>
+            <a href="sexShop.html">Sex shop</a>
+            <a href="cosmeticos.html">Cosméticos</a>
+            <a href="sobre.html">Sobre nós</a>
+        </p>
+        <p class="reservado">&copy;Todos os direitos reservados</p>
+    </div>
+    <!-- FIM RODAPÉ -->
+      
+     <!-- IMPORTAÇÃO DE SCRIPTS -->
+     <script src="js/script.js"></script>
+    <script type="text/javascript" src="js/models.js"></script>
+    <script type="text/javascript" src="js/script2.js"></script>
+</body>
+</html>
